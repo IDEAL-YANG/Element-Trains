@@ -8,7 +8,7 @@
                 <el-col :span="2"><div class="navigator_title">联系我们</div></el-col>
             </el-row>
             <el-row class="navigator_tips">
-                <el-col offset="2"><div class="navigator_tips_text">App很容易</div></el-col>
+                <el-col :offset="2"><div class="navigator_tips_text">App很容易</div></el-col>
             </el-row>
         </el-row>
         <el-row class="why_bg">
@@ -36,14 +36,8 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        box-sizing: border-box;
     }
     .navigator_bg {
-        width: 100%;
-        height: 100%;
-        position: absolute;
         background-image: url('./../assets/headbanner.jpg');
         background-size: 100% 100%;
     }
